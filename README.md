@@ -1,13 +1,13 @@
-#Globe-Terminal-Simulation
+# Globe-Terminal-Simulation
 A lightweight Bash script that streams an animated globe simulation in your terminal for a visually engaging experience.
 
-##🚀 Features
+## 🚀 Features
 
 Fetches and displays the globe simulation using curl.
 
 Smooth animation with controlled speed using the pv command for a cinematic effect.
 
-##🛠 Prerequisites Ensure you have the following installed:
+## 🛠 Prerequisites Ensure you have the following installed:
 
 `curl` (for fetching the animation file).
 
@@ -26,7 +26,7 @@ sudo yum install curl pv
 brew install curl pv
 ```
 
-##📌 Usage
+## 📌 Usage
 Clone the repository and run the script:
 
 ```
@@ -36,7 +36,7 @@ chmod +x globe_sim.sh  # Make the script executable
 ./globe_sim.sh
 ```
 
-##⚡ Alias for Quick Access 
+## ⚡ Alias for Quick Access 
 To run the script from anywhere, create a shell alias. Add this line to your `~/.bashrc` or `~/.zshrc` file:
 
 ```
@@ -56,5 +56,5 @@ Now, you can start the globe simulation with a simple command:
 globesim
 ```
 
-##🌟 Customizations
+## 🌟 Customizations
  Feel free to adjust the speed by modifying the -L value in the pv command within the script. You can also experiment with other vt100 animations for variety!
